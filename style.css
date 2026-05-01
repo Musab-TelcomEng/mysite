@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+body {
+    background: #e9eefc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    width: 900px;
+    height:450px;
+    background: white;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow:0px 8px 20px rgba(red, green, blue, alpha)
+}
+.left{
+    width: 50%;
+    background:#7c4dff;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 40px; 
+}
+.logo-box{
+    margin-bottom: 20px;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius:  50%;
+    background: white;
+    color: #7c4dff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size:  22px;
+}
+.desc{
+    font-size: 14px;
+    opacity:  0.9;
+    margin-bottom:  60px;
+}
+.visit{
+    color:  white;
+    font-size:  14px;
+    text-decoration: none;
+    opacity:  0.8;
+}
+.visit:hover{
+    opacity:  1;
+}
+.right{
+    width: 50%;
+    padding:  60px;
+    display: flex;
+    flex-direction: 30px;
+    justify-content: center;
+}
+.right h2{
+    font-size:  24px;
+    margin-bottom:  30px;
+    color: #333;
+}
+form input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom:  15px;
+    border:  1px solid#ddd;
+    border-radius:  6px;
+    outline:  none;
+}
+form input:focus{
+    border-color:  #7c4dff;
+}
+.forgot{
+    text-align:  left;
+    margin-bottom:  20px;
+}
+.forgot a{
+    font-size:  13px;
+    color:  #888;
+    text-decoration:  none;
+}
+.forgot a:hover{
+    color:  #7c4dff;
+}
+.btn{
+    width:  120px;
+    padding:  10px;
+    background: #7c4dff;
+    color:  white;
+    border:  none;
+    border-radius: 6px;
+    cursor:   pointer;
+    float: right;
+}
+.btn:hover{
+    background: #6a3dff;
+}
+.signup-box{
+    margin-top:  80px;
+    background: #f5f1ff;
+    padding:  12px;
+    text-align: center;
+    border-radius:  6px;
+    font-size:  14px;
+}
+.signup-box a{
+    color:  #7c4dff;
+    font-weight: bold;
+    text-decoration:  none;
+}
